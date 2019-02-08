@@ -1,0 +1,45 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size:12px;}
+input,a{outline:none;}
+html{font-size: 9.26vw;}
+
+.box{
+	max-width:1080px;
+	margin: 0 auto;
+}
+.banner,.nav,.content,footer{width: 100%;}
+/* 轮播图---------------------------------- */
+.banner{height:6.04rem;background: red;position: relative;overflow: hidden;}
+.banner ul{width:100rem;height:6.04rem ;position: absolute;left: 0;top: 0;}
+.banner ul li{width: 10.8rem;height:6.04rem ;float: left;font-size: 4rem;}
+.banner ul li:nth-of-type(1){background: yellow;}
+.banner ul li:nth-of-type(2){background: blue;}
+.banner ul li:nth-of-type(3){background: green;}
+.banner ul li:nth-of-type(4){background: red;}
+.banner ul li:nth-of-type(5){background: yellow;}
+.pages{position: absolute;right: 0.45rem;bottom: 0.3rem;}
+.page{width: 0.15rem;height: 0.15rem;border-radius: 50%;background: #fff;display: inline-block;border: 0.05rem solid #fff;margin-right: 0.05rem;opacity: .5;}
+
+/* 导航栏---------------------------------- */
+.nav{height: 1.48rem;z-index: 99;background: #fff;}
+.nav span{width: 50%;height:  1.48rem;float: left;text-align: center;font-size: 0.38rem;line-height: 1.48rem;}
+.nav span:nth-child(1){color: #ff5f17;}
+.nav span b{font-weight: normal;border-bottom:0.08rem solid #fff;padding-bottom: 0.4rem;}
+.nav span:nth-child(1) b{border-color: #ff5f17;}
+/* 内容区---------------------------------- */
+.content{min-height: 8.3rem;background: yellow;position: relative;}
+.zzry,.jjrs{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.zzry{background: pink;}
+.zzry li{width: 100%;height: 3.6rem;border-bottom: 1px solid #ededed;}
+.zzry li img{width: 100%;height: 3.6rem;}
+.jjrs{background: green;display: none;}
+.jjrs li{width: 100%;height: 3.6rem;border-bottom: 1px solid #ededed;}
+.jjrs li img{width: 100%;height: 3.6rem;}
+/* 页脚------------------------------------ */
+footer{height: 1.28rem;position: fixed;left: 0;bottom: 0;background: #fff;display: flex;justify-content: space-around;}
+footer img{width:0.64rem;height: 1rem;margin-top: .2rem;}
