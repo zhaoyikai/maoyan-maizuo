@@ -1,0 +1,40 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+header,.content{width: 870px;margin: 0 auto;}
+/* header-------------------------------------- */
+header{height: 85px;overflow: hidden;}
+header h1{width: 234px;height: 46px;background: url(../img/login_logo.jpg) no-repeat;margin-top: 39px;}
+
+/* 内容区--------------------------------------- */
+.content{height: 395px;}
+.con_Bg{width: 480px;height: 355px;background: url(../img/login_conBg.png) no-repeat center/cover;float: left;margin-top: 40px;}
+/* 登录------------------------------------------ */
+.dl{width: 270px;height: 395px;float: right;color:#666 ;}
+.tsk{width:268px;height: 38px;border: 1px solid #f5d8a7;background: #fff6db;display: none;}
+.tsk strong{font-size: 14px;color: #666;height:38px ;line-height: 38px;float: left;}
+.tsk .tsk_jg{margin: 10px 6px 0 10px;display: inline-block;width: 17px;height: 18px;background: url(../img/tsk_1.jpg) no-repeat;float: left;}
+.dl_header{height: 16px;font-size: 14px;line-height: 16px;margin: 12px 0 10px 0;}
+.dl_header b{float: right;}
+.dl_header b em{display: inline-block;width: 10px;height: 14px;background: url(../img/login_phone.jpg) no-repeat;margin-left: 6px;}
+/* 两个input----------------------------------------- */
+.ipt_pos{position: relative;}
+label{width: 20px;height: 18px;display: inline-block;position: absolute;left: 11px;top: 12px;}
+.txt_lab{background: url(../img/txt_lab.jpg) no-repeat;}
+.pas_lab{background: url(../img/pas_lab.jpg) no-repeat;}
+input{width: 266px;height: 36px;border: 1px solid #aaaaaa;text-indent: 34px;}
+.zhuce{cursor: pointer;}
+.wjmm{overflow: hidden;}
+.wjmm span{height: 12px;line-height: 12px;color: #e42d32;float: right;font-size: 12px;font-weight: 900;}
+i{font-style: normal;margin: 0 3px 0 3px;}
+.sb{width: 270px;height: 35px;display: block;font-size: 14px;line-height: 35px;color: #fff;text-align: center;background:url(../img/sb_Bg.jpg);border-radius: 5px;margin: 17px 0 12px 0;}
+p{height: 12px;line-height: 12px;font-size: 12px;font-weight: 900;}
+p span{color: #e42d32;}
+/* 页脚----------------------------------------- */
+footer{min-height: 12px;margin-top:80px ;text-align: center; }
+strong{height: 12px;line-height: 12px;font-size: 12px;color: #ccc;}

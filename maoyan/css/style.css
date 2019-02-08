@@ -1,0 +1,90 @@
+.content{width: 1200px;margin: 0 auto;}
+
+/* 内容区--------------------------------------------------- */
+.content{min-height: 2120px;margin-top: 140px;}
+.con_left,aside{height: 2120px;float: left;}
+.con_left,.zzry,.jjsy{width: 840px;}
+.con_left p{margin-left: 20px;}
+.con_left p span:hover{text-decoration: underline;cursor: pointer;}
+aside p span:hover{text-decoration: underline;cursor: pointer;}
+/* 正在热映------------------------------------------------ */
+.zzry{height: 615px;}
+.zzry p{height: 38px;line-height: 38px;font-size: 26px;color: #ef4238;}
+.zzry p span{font-size: 12px;margin-left: 500px;}
+.zzry p span strong{width:9px;height: 16px;display: inline-block;background: url(../img/zzry_all.jpg) no-repeat;margin-left: 5px;}
+.zzry ul{box-sizing: border-box;padding-left: 22px;}
+.zzry ul li{width: 160px;height: 260px;border: 1px solid #ccc;margin: 14px 30px 14px 0;float: left;}
+.zzry ul li img{width: 160px;height: 220px;background: skyblue;}
+.zzry ul li span{width: 160px;height: 40px;font-size: 14px;color: #ef4238;line-height: 40px;text-align: center;display: block;}
+.zzry ul li span:hover{background:#ef4238 ;color: #fff;cursor: pointer;}
+/* 即将上映-----------------------------------------------*/
+.jjsy{height: 745px;margin-top: 66px;}
+.jjsy p{height: 38px;line-height: 38px;font-size: 26px;color: #2d98f3;}
+.jjsy p span{font-size: 12px;margin-left: 470px;}
+.jjsy p span strong{width:9px;height: 16px;display: inline-block;background: url(../img/jjsy_all.jpg) no-repeat;margin-left: 5px;}
+.jjsy ul{box-sizing: border-box;padding-left: 5px;}
+.jjsy ul li{width: 160px;height: 334px;margin: 20px 15px 0 15px;float: left;}
+.jjsy_li{border: 1px solid #ccc;}
+.jjsy ul li img{width: 160px;height: 220px;background: skyblue;}
+.jjsy ul li i{display: block;width: 160px;height: 34px;line-height: 34px;font-size: 12px;color: #ffb400;font-style: normal;text-align: center;background: #fbfbfb;}
+.jjsy ul li span{width:49%;display: inline-block;height: 40px;font-size: 14px;line-height: 40px;text-align: center;color: #999;}
+.jjsy ul li span:nth-of-type(1){border-right: 1px dashed #ccc;}
+.jjsy ul li b{height: 40px;line-height: 40px;font-size: 14px;text-align: center;color: #999;display:block;}
+/* 热播电影---------------------------------------------------------- */
+.rbdy{height: 550px;margin-top: 66px;}
+.rbdy p{height: 48px;padding-bottom: 20px;box-sizing: border-box;}
+.rbdy p em{font-size: 28px;height: 28px;line-height: 28px;font-style: normal;color: #ef4238;}
+.rbdy p span{font-size: 14px;margin: 0 18px;}
+.rbdy ul{box-sizing: border-box;padding-left: 2px;}
+.rbdy ul li{width: 160px;height: 220px;background: palegreen;border: 1px solid #ccc;margin: 0 14px 28px 14px;float: left;}
+.rbdy ul li:nth-of-type(1){width: 350px;}
+/* 内容区右侧部分------------------------------------------------ */
+aside{width: 360px;background: #fff;}
+/* 今日票房------------------------------------------------------- */
+.jrpf{width: 360px;height: 476px;}
+.jrpf p{height: 34px;font-size: 28px;line-height: 34px;color: #ef4238;}
+.guanjun{width: 358px;height: 78px;border: 1px solid #ccc;margin: 18px 0 10px 0;}
+.guanjun img{width: 120px;height: 78px;background: skyblue;float:left;margin-right: 10px;}
+.guanjun span{height: 18px;line-height: 18px;font-size: 18px;
+margin: 17px 0 17px 12px;display: block;}
+.guanjun em{height: 14px;line-height: 14px;font-size: 14px;display: block;color: #ef4238;font-style: normal;margin-left: 12px;}
+.jrpf ul li{height: 38px;font-size: 17px;width: 100%;}
+.jrpf ul li i{margin-right: 12px;}
+.jrpf ul li:nth-of-type(1) i{color: #ef4238;}
+.jrpf ul li:nth-of-type(2) i{color: #ef4238;}
+.jrpf ul li strong{float: right;font-size: 14px;color:#ef4238 ;}
+/* 今日大盘----------------------------------------------------------- */
+.jrdp{border: 1px solid #ccc;margin: 28px 0 80px 0;}
+.jrdp img{width: 358px;height: 100px;}
+/* 最受期待----------------------------------------------------------- */
+.zsqd{width: 360px;height: 728px;}
+.zsqd p{height: 28px;line-height: 28px;font-size: 28px;color: #ffb400;position: relative;margin-bottom: 22px;}
+.zsqd p span{font-size: 14px;height: 14px;line-height: 14px;position: absolute;right: 0;bottom: 2px;}
+.zsqd p span em{display: inline-block;width: 10px;height: 15px;background: url(../img/zsqd_all.jpg) no-repeat;}
+.zsqd_No1{width: 358px;height: 194px;border: 1px solid #ccc;margin-bottom: 22px;}
+.zsqd_No1 img{width: 140px;height: 100%;background: red;float: left;margin-right: 10px;}
+.zsqd_No1 h3{height: 18px;line-height: 18px;font-size: 18px;margin-top: 62px;}
+.zsqd_No1 em{display: block;font-style: normal;height: 16px;font-size: 16px;line-height: 16px;color: #999;margin: 18px 0 14px 0;}
+.zsqd_No1 strong{height: 14px;line-height: 14px;font-size: 14px;color: #ffb400;}
+.zsqd_No2and3{width: 170px;height: 184px;border: 1px solid #ccc;float: left;margin-bottom: 20px;}
+.zsqd_No2and3 img{width: 170px;height: 118px;background: red;}
+.zsqd_No2and3 h3{height: 18px;line-height: 18px;font-size: 18px;margin: 12px 0 12px 10px;}
+.zsqd_No2and3 strong{height: 14px;line-height: 14px;font-size: 14px;color: #fdb863;margin-left: 10px;}
+.zsqd ul{float: left;width: 100%;}
+.zsqd ul li{height: 38px;font-size: 17px;width: 100%;}
+.zsqd ul li i{margin-right: 12px;}
+.zsqd ul li strong{float: right;font-size: 14px;color:#fdb863 ;}
+/* TOP100-------------------------------------------------------------- */
+.TOP100{margin-top: 104px;}
+.TOP100 p{height: 28px;line-height: 28px;font-size: 28px;color: #ffb400;position: relative;margin-bottom: 22px;}
+.TOP100 p span{font-size: 14px;height: 14px;line-height: 14px;position: absolute;right: 0;bottom: 2px;}
+.TOP100 p span em{display: inline-block;width: 10px;height: 15px;background: url(../img/zsqd_all.jpg) no-repeat;}
+.TOP100_No1{width:358px;height:78px ;border: 1px solid #ccc;margin-bottom:10px ;}
+.TOP100_No1 img{width: 118px;height: 76px;border: 1px solid #c0c0c0;margin-right: 10px;float: left;}
+.TOP100_No1 h3{height: 16px;line-height: 16px;font-size: 16px;margin: 18px 0 10px 0;}
+.TOP100_No1 strong{height:12px;line-height: 12px;font-size: 12px;color:#ffb400 ;}
+.TOP100 ul li{height: 38px;font-size: 17px;width: 100%;}
+.TOP100 ul li i{margin-right: 12px;}
+.TOP100 ul li:nth-of-type(1) i{color: #ef4238;}
+.TOP100 ul li:nth-of-type(2) i{color: #ef4238;}
+.TOP100 ul li strong{float: right;font-size: 14px;color:#fdb863 ;}

@@ -1,0 +1,86 @@
+
+.banner,.content{width: 1200px;margin: 0 auto;}
+/* banner区域---------------------------------------------- */
+.ban_wrap{height: 314px;background:url(../img/xq_ban_Bg.jpg);margin-top: 140px;}
+.banner img{width: 240px;height: 330px;float: left;margin-top: 10px;margin-left: 30px;}
+.ban_con{width: 250px;height: 280px;float: left;color: #fff;margin: 12px 92px 0 28px;}
+.ban_con h3{height: 28px;line-height: 28px;font-size: 28px;font-weight: 900;}
+.ban_con span{height: 20px;line-height: 20px;font-size: 20px;margin: 5px 0 16px 0;display: block;}
+.ban_con em{height: 14px;line-height: 14px;font-size: 14px;display: block;font-style: normal;}
+.ban_con em:nth-of-type(2){margin: 14px 0;}
+.xk_pf{width: 120px;height: 36px;background: #756189;display: inline-block;text-align: center;line-height: 36px;border-radius: 5px;margin-top: 60px;float: left;}
+.xk_pf i{display: inline-block;width: 16px;height: 15px;float: left;margin: 11px 6px 0 32px;}
+.xq_ban_xk{background: url(../img/xq_ban_xk.jpg) no-repeat;}
+.xq_ban_sc{background: url(../img/xq_ban_sc.jpg) no-repeat;}
+.xk_pf strong{float: left;font-weight: normal;}
+.banner a{display: block;width: 100%;height: 40px;background: #df2d2d;font-size: 16px;line-height: 40px;text-align: center;color: #fff;float: left;margin-top: 10px;border-radius: 5px;}
+.ban_right{width: 127px;height: 124px;background: url(../img/xq_ban_right.png) no-repeat;float: left;margin-top: 167px;}
+
+/* 内容区-------------------------------------------- */
+.content{height: 2500px;margin-top: 70px;}
+.asideLeft{height: 2500px;width: 730px;float: left;position: relative;}
+.ad_Lf_top{width: 730px;border-bottom: 2px solid #eeeeee;
+margin-top: -2px;z-index: 3;}
+.ad_Lf_sp{display: inline-block;height: 38px;border-bottom: 2px solid #fff;margin-right: 32px;line-height: 38px;font-size: 18px;z-index: 4;cursor: pointer;}
+.ad_Lf_dv{width: 730px;min-height: 600px;position: absolute;top: 40px;left: 0;display: none;}
+/* 剧情介绍-------------------------- */
+.jqjs_p{line-height: 26px;font-size: 14px;}
+/* 演职人员-------------------------- */
+.yzry_ul{margin-bottom: 54px;overflow: hidden;}
+.yzry_ul li{width: 130px;height: 260px;float: left;margin-right: 16px;}
+.yzry_ul li:nth-of-type(1){margin-right: 30px;}
+.yzry_ul li h3{height: 22px;line-height: 22px;font-size: 16px;margin-bottom: 14px;}
+.yzry_ul li img{width: 130px;height: 170px;margin-bottom: 14px;}
+.yzry_ul li p{height: 15px;line-height: 15px;font-size: 15px;width: 130px;overflow: hidden;margin-bottom: 7px;}
+.yzry_ul li span{height: 14px;line-height: 14px;font-size: 14px;color: #666;width: 130px;overflow: hidden;}
+/* 图集--------------------------------------------- */
+.tj{overflow: hidden;margin-top: 14px;margin-bottom: 50px;}
+.tj img{float: left;margin-right:6px ;}
+.tj img:nth-of-type(2){margin-bottom:6px;}
+.tj img:nth-of-type(3){margin-right:0 ;margin-bottom:6px;}
+.tj img:nth-of-type(5){margin-right:0 ;}
+/* 热门短评------------------------------------------ */
+.rmdp{position: relative;}
+.rmdp li{width: 730px;min-height: 146px;overflow: hidden;margin-bottom: 20px;}
+.tx{width: 70px;height: 52px;float: left;}
+.dr{width: 660px;min-height:146px ;float: left;border-bottom: 1px solid #e5e5e5;}
+.dr p{width: 660px;line-height: 28px;font-size: 12px;margin: 18px 0 26px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asideRight{min-height:870px;width: 360px;float: right;background: #fff;}
+.bt{height: 40px;line-height: 40px;font-size: 20px;margin-bottom: 11px;}
+.bt b{display: inline-block;width: 4px;height: 20px;background: #ef4238;margin:11px 6px 0 0;float: left;}
+.ad_rg_ul_one{margin-bottom: 50px;}
+.ad_rg_ul_one li{width: 360px;height: 87px;}
+.ad_rg_ul_one li:nth-of-type(2){margin:16px 0;}
+	
+.ad_rg_ul_one li img{float: left;margin-right: 10px;}
+.ad_rg_ul_one li span{width: 210px;line-height: 18px;font-size: 14px;display: block;height: 36px;overflow: hidden;}
+.ad_rg_ul_one li p{height: 16px;font-size: 13px;line-height: 16px;color: #999;margin-top: 26px;}
+.ad_rg_ul_one li p em{display: inline-block;width: 19px;height: 15px;background: url(../img/ad_rg_gk.jpg) no-repeat;margin-left: 3px;}
+.ad_rg_ul_one li p i{display: inline-block;width: 19px;height: 15px;background: url(../img/ad_rg_pl.jpg) no-repeat;margin-left: 3px;}
+
+.ad_rg_ul_two li{width: 110px;height: 207px;float: left;margin: 0 15px 20px 0;}
+.ad_rg_ul_two li img{width: 106px;height: 145px;border: 2px solid #ccc;}
+.ad_rg_ul_two li p{height: 42px;line-height: 42px;font-size: 14px;text-align: center;}
+.ad_rg_ul_two li span{height: 20px;line-height: 20px;text-align: center;font-size: 13px;color: #ffb400;display: block;}
+
+
+
+
+
+
+

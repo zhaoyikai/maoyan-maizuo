@@ -1,0 +1,47 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+nav{width: 1200px;margin: 0 auto;}
+/* nav: --------------------------------------------; */
+.nav_wrap{width: 100%;height: 140px;position: fixed;top: 0;border-bottom:1px solid #d8d8d8 ;background: #fff;z-index: 99;}
+nav{height: 140px;display: flex;position: relative;}
+nav h1{width: 135px;height: 40px;background:
+url(../img/index_logo.jpg) no-repeat;margin-right: 20px;margin-top: 20px;}
+.dw{height: 80px;line-height: 80px;font-size: 16px;}
+.sanjiao{display:inline-block;border-top: 5px solid #666;width: 0px;height: 0px;border-left: 5px solid #fff;border-right: 5px solid #fff;border-bottom: 0 ;margin: 40px 0px 0 7px;transition: all .5s;}
+nav ul{margin-left: 20px;}
+nav ul li{float: left;}
+nav ul li a{display:block ;width: 80px;height: 80px;line-height: 80px;font-size: 16px;line-height: 80px;text-align: center;}
+.clr_hor:hover{color:#ef4238 ;}
+nav input,.btn{margin-top: 20px;}
+nav input{width: 260px;height: 35px;background: #faf8fa;border: 1px solid #ccc;border-radius: 20px ;margin-left: 125px;text-indent: 20px;}
+.btn{width: 38px;height: 38px;background: url(../img/btn.jpg) no-repeat center,#ef4238;border-radius: 50%;position: relative;left: -38px ;}
+.denglu{width: 75px;height: 130px;position: absolute;right: 0;top: 0;text-align: center;border: 1px solid #fff;border-top:0}
+.denglu:hover{border-color:#d8d8d8;}
+.denglu:hover .dl_yc{display: block;}
+.dl_yc{cursor: pointer;}
+.dl_yc:hover{color:#e02025 ;text-decoration: underline;}
+.denglu:hover .sanjiao{transform:rotateZ(180deg) ;}
+.denglu strong{width: 40px;height: 40px;background: url(../img/7dd82a16316ab32c8359debdb04396ef2897.png) no-repeat center/cover;border-radius: 50%;display:inline-block;float: left;margin: 20px 0 40px 10px;}
+.dl_yc{height: 14px;line-height: 14px;font-size: 14px;color: #999;float: left;clear: both;text-align: center;width: 100%;display: none;}
+.APP_top{width:130px;height: 80px;line-height: 80px;font-size: 16px;margin-top: 28px;margin-left: 15px;position: absolute;bottom: 0;right: 88px;border:1px solid #fff;border-top:0 ;border-bottom:0 ;}
+.APP_top i{width: 15px;height: 24px;display: inline-block;background: url(../img/phone.jpg) no-repeat;float: left;margin: 28px 7px 0 14px;}
+.APP_top span{float: left;}
+.APP_xiazai{width: 130px;height: 165px;border: 1px solid #ccc;position: absolute;right: -1px;top: 80px;text-align: center;border-top: 0;background: #fff;display: none;}
+.APP_xiazai img{width: 74px;height: 74px;margin: 18px 0 25px 30px;}
+.APP_xiazai p{height: 12px;line-height: 12px;}
+.xzgyh{margin-top: 10px;color: #999;}
+.APP_top:hover .APP_xiazai{display: block;}
+.APP_top:hover {border-color: #ccc;}
+.APP_top:hover .sanjiao{transform:rotateZ(180deg) ;}
+/* 底部-------------------------------------------------------- */
+footer{height: 213px;background:#262426;box-sizing: border-box;padding-top: 60px;text-align: center;}
+footer p{height: 12px ;line-height: 12px;font-size: 12px;color: #666;margin-bottom: 6px;}
+footer i{font-style: normal;color: #ef4238;}
+footer span{margin: 0 10px;}
+footer em{margin-left: 24px;}
